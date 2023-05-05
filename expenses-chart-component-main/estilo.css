@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --Soft-red: hsl(10, 79%, 65%);
+    --Cyan: hsl(186, 34%, 60%);
+    --Dark-brown: hsl(25, 47%, 15%);
+    --Medium-brown: hsl(28, 10%, 53%);
+    --Cream: hsl(27, 66%, 92%);
+    --Very-pale-orange: hsl(33, 100%, 98%);
+}
+.container{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    top: 200px;
+}   
+body{
+    background-color: var(--Cream);
+}
+.carteira{
+    display: flex;
+    flex-direction: row;
+    background-color: var(--Soft-red);
+    border-radius: 10px;
+    font-family:'DM Sans', sans-serif;
+    padding: 20px;
+    flex-wrap: wrap;
+    width: 400px;
+}
+.meuSaldo{
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+.saldo{
+    color: white;
+    display: flex;
+    gap: 20px;
+}
+
+.logo{
+    display: flex;
+    flex-direction: row;
+    margin-left: 170px;
+}
+.main-container{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 20px;
+    
+}
+.hero{
+    display: flex;
+    flex-direction: column;
+    background-color: var(--Very-pale-orange);
+    border-radius: 10px;
+    width: 400px;
+    padding: 15px;
+}
+.seteDias{
+    font-family:'DM Sans', sans-serif;
+    margin-bottom: 20px;
+}
+.dias{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    gap: 10px;
+}
+.mon{
+    background-color: var(--Soft-red);
+    display: flex;
+    flex-direction: column;
+    height: px;
+}
+.tue{}
+.wed{} 
+.thu{}
+.fri{}
+.sat{}
+.sun{}
